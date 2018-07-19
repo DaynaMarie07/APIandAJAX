@@ -1,0 +1,77 @@
+body {
+	font-family: 'Sue Ellen Francisco', cursive;
+	text-align: center;
+	background-image: url("../images/bg.jpg");
+	background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+	font-size: 80px;
+	color: black;
+	text-shadow: 0 0 8px #b34d57, 0 0 8px #a8a8d7;
+	padding-top: 15px;
+}
+
+button,
+.btn {
+	font-family: 'Sue Ellen Francisco', cursive;
+	text-align: center;
+	padding: 5px;
+	line-height: 100%;
+	color: #f9f9f9;
+}
+
+#search,
+#add-gif,
+#gifs {
+	line-height: 100%;
+	padding: 5px;
+	font-size: 30px;
+}
+
+.gif-button-new,
+#gif-buttons,
+#submit-button {
+	margin: 8px;
+	font-size: 24px;
+	padding-top: 12px;
+	opacity: 0.8;
+}
+
+#add-gif-input {
+	line-height: 100%;
+	font-size: 26px;
+	background-color: #fafafa;
+	margin-top: 20px;
+}
+
+.rating {
+	color: #fafafa;
+	padding-top: 10;
+	font-size: 22px;
+}
+
+hr {
+	border-color: #fafafa;
+}
+
+#footer {
+	color: #0f3446;
+	padding: 5px;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+a {
+	color: #0f3446;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
